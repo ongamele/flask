@@ -1,0 +1,16 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+
+[packages]
+gunicorn = "==19.7.1"
+ibmcloudenv = "*"
+livereload = "*"
+Flask = ">=1.0.0"
+Flask-Cors = ">=3.0.10"
+prometheus_client = "*"
+CouchDB = "*"
+PyYAML = "*"
