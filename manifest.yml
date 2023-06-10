@@ -10,5 +10,5 @@ applications:
     disk_quota: 2G
     memory: 3000MB
     env:
-      FLASK_APP: server.__init__.py
+      FLASK_APP: server
       FLASK_DEBUG: false
